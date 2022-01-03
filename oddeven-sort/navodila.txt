@@ -1,0 +1,7 @@
+N - stevilo primerjave (velikost tabele / 2)
+T = number of threads
+
+clock() -> do not use
+#include <omp.h>
+double time = opm_get_wtime()
+	gcc -fopenmp
